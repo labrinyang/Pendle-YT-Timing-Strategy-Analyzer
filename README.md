@@ -37,21 +37,32 @@ This document covers:
 - Python 3.x
 - Required Python libraries: `requests`, `pandas`, `numpy`, `datetime`, `plotly`
 
-## 🚀 Installation
-1. Clone the repository:
+
+## 📘 Colab Notebook OR 🚀 Installation
+You can explore and run the analysis directly on Google Colab. No setup required—simply open the notebook and start experimenting with the tool:
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xr_18PesSBV5DpRPVKibO5Ta6o4lpo-y#scrollTo=MzL4QgmqAsor)
+
+Alternatively, you can clone the repository and run the analysis locally:
+
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/Pendle-YT-Timing-Strategy-Analyzer.git
+   git clone https://github.com/labrinyang/Pendle-YT-Timing-Strategy-Analyzer.git
    ```
-2. Install the required Python libraries:
+2. **Install the required Python libraries**:
    ```bash
    pip install -r requirements.txt
    ```
+3. **Run the notebook**:
+   Open the Jupyter Notebook or Python script locally and start your analysis.
+
 
 ## 💡 Usage
 1. **Select Network**: Choose the network where the pool is located (Ethereum, Arbitrum, Mantle).
 2. **Enter Contract Addresses**: Provide the Market and YT contract addresses on the pool's homepage.
 3. **Analyze & Simulate**: Use the tool to analyze your investment strategy or simulate limit orders based on historical data.
 4. **Visualize Results**: Generate and view visualizations to understand YT price movements, implied APY, and points distribution.
+
 
 ## 🤝 Contributing
 We welcome contributions from Pendle enthusiasts! Whether you're a developer, analyst, or simply a fan of DeFi, your input and improvements are highly valued. Future support from this project will be shared with all contributors.

@@ -1,9 +1,9 @@
 # 🌟 Pendle-YT-Timing-Strategy-Analyzer 🌟
 
-[![GitHub contributors](https://img.shields.io/github/contributors/yourusername/Pendle-YT-Timing-Strategy-Analyzer)](https://github.com/yourusername/Pendle-YT-Timing-Strategy-Analyzer/graphs/contributors)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/Pendle-YT-Timing-Strategy-Analyzer)](https://github.com/yourusername/Pendle-YT-Timing-Strategy-Analyzer/network)
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/Pendle-YT-Timing-Strategy-Analyzer)](https://github.com/yourusername/Pendle-YT-Timing-Strategy-Analyzer/stargazers)
-[![GitHub license](https://img.shields.io/github/license/yourusername/Pendle-YT-Timing-Strategy-Analyzer)](https://github.com/yourusername/Pendle-YT-Timing-Strategy-Analyzer/blob/main/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/yourusername/Pendle-YT-Timing-Strategy-Analyzer)](https://github.com/labrinyang/Pendle-YT-Timing-Strategy-Analyzer/graphs/contributors)
+[![GitHub forks](https://img.shields.io/github/forks/yourusername/Pendle-YT-Timing-Strategy-Analyzer)](https://github.com/labrinyang/Pendle-YT-Timing-Strategy-Analyzer/network)
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/Pendle-YT-Timing-Strategy-Analyzer)](https://github.com/labrinyang/Pendle-YT-Timing-Strategy-Analyzer/stargazers)
+[![GitHub license](https://img.shields.io/github/license/yourusername/Pendle-YT-Timing-Strategy-Analyzer)](https://github.com/labrinyang/Pendle-YT-Timing-Strategy-Analyzer/blob/main/LICENSE)
 
 This analyzer helps users find the best times to buy Yield Tokens (YT) on Pendle. It simplifies investment decisions by analyzing historical data and market trends, offering insights into optimal entry points and returns. Ideal for all DeFi investors, it provides clear visualizations and automated analysis to boost your yield farming strategy.
 

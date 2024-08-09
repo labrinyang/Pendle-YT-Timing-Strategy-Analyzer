@@ -9,6 +9,16 @@ This analyzer helps users find the best times to buy Yield Tokens (YT) on Pendle
 - **Visualizations**: Generates clear, easy-to-interpret visualizations to help guide your investment decisions.
 - **Simulated Limit Orders**: Simulate the results of placing limit orders on YT and assess potential outcomes.
 
+## Understanding the Strategy
+
+To gain a deeper understanding of how the YT price correlates with the implied annualized yield (APY) and the impact of holding duration on returns, please refer to the [YT Timing Strategy Overview](https://docs.google.com/document/d/1MUHDZqcMZwv5h4CJwk_2LLev8zy6GjbSdevnAwpG0LE/edit?usp=sharing).
+
+This document covers:
+- The correlation between YT price and implied APY.
+- The effect of holding duration and YT leverage.
+- How to achieve returns above the average by identifying optimal purchase points.
+- The significance of volume-weighted implied APY in establishing a fair price line for YT.
+
 ## Prerequisites
 - Python 3.x
 - Required Python libraries: `requests`, `pandas`, `numpy`, `datetime`, `plotly`

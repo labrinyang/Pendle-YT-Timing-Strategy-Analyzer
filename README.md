@@ -1,9 +1,17 @@
 # 🌟 Pendle-YT-Timing-Strategy-Analyzer 🌟
 
-[![GitHub contributors](https://img.shields.io/github/contributors/yourusername/Pendle-YT-Timing-Strategy-Analyzer)](https://github.com/labrinyang/Pendle-YT-Timing-Strategy-Analyzer/graphs/contributors)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/Pendle-YT-Timing-Strategy-Analyzer)](https://github.com/labrinyang/Pendle-YT-Timing-Strategy-Analyzer/network)
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/Pendle-YT-Timing-Strategy-Analyzer)](https://github.com/labrinyang/Pendle-YT-Timing-Strategy-Analyzer/stargazers)
-[![GitHub license](https://img.shields.io/github/license/yourusername/Pendle-YT-Timing-Strategy-Analyzer)](https://github.com/labrinyang/Pendle-YT-Timing-Strategy-Analyzer/blob/main/LICENSE)
+![GitHub contributors](https://img.shields.io/github/contributors/labrinyang/Pendle-YT-Timing-Strategy-Analyzer)
+![GitHub forks](https://img.shields.io/github/forks/labrinyang/Pendle-YT-Timing-Strategy-Analyzer)
+![GitHub stars](https://img.shields.io/github/stars/labrinyang/Pendle-YT-Timing-Strategy-Analyzer)
+![GitHub license](https://img.shields.io/github/license/labrinyang/Pendle-YT-Timing-Strategy-Analyzer)
+![GitHub issues](https://img.shields.io/github/issues/labrinyang/Pendle-YT-Timing-Strategy-Analyzer)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/labrinyang/Pendle-YT-Timing-Strategy-Analyzer)
+![GitHub last commit](https://img.shields.io/github/last-commit/labrinyang/Pendle-YT-Timing-Strategy-Analyzer)
+![GitHub repo size](https://img.shields.io/github/repo-size/labrinyang/Pendle-YT-Timing-Strategy-Analyzer)
+![GitHub top language](https://img.shields.io/github/languages/top/labrinyang/Pendle-YT-Timing-Strategy-Analyzer)
+![GitHub language count](https://img.shields.io/github/languages/count/labrinyang/Pendle-YT-Timing-Strategy-Analyzer)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/labrinyang/Pendle-YT-Timing-Strategy-Analyzer)
+
 
 This analyzer helps users find the best times to buy Yield Tokens (YT) on Pendle. It simplifies investment decisions by analyzing historical data and market trends, offering insights into optimal entry points and returns. Ideal for all DeFi investors, it provides clear visualizations and automated analysis to boost your yield farming strategy.
 

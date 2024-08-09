@@ -6,6 +6,7 @@
 ![GitHub license](https://img.shields.io/github/license/labrinyang/Pendle-YT-Timing-Strategy-Analyzer)
 ![GitHub issues](https://img.shields.io/github/issues/labrinyang/Pendle-YT-Timing-Strategy-Analyzer)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/labrinyang/Pendle-YT-Timing-Strategy-Analyzer)
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/labrinyang/Pendle-YT-Timing-Strategy-Analyzer)
 ![GitHub repo size](https://img.shields.io/github/repo-size/labrinyang/Pendle-YT-Timing-Strategy-Analyzer)
 ![GitHub top language](https://img.shields.io/github/languages/top/labrinyang/Pendle-YT-Timing-Strategy-Analyzer)

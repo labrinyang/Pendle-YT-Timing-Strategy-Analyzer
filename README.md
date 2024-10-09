@@ -1,4 +1,4 @@
-# 🌟 Pendle-YT-Timing-Strategy-Analyzer 🌟
+# 🌟 Pendle-YT-Timing-Strategy-Analyzer V6 🌟
 
 ![GitHub contributors](https://img.shields.io/github/contributors/labrinyang/Pendle-YT-Timing-Strategy-Analyzer)
 ![GitHub forks](https://img.shields.io/github/forks/labrinyang/Pendle-YT-Timing-Strategy-Analyzer)
@@ -13,35 +13,34 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/labrinyang/Pendle-YT-Timing-Strategy-Analyzer)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/labrinyang/Pendle-YT-Timing-Strategy-Analyzer)
 
+The **Pendle-YT-Timing-Strategy-Analyzer V6** is an enhanced tool designed to help DeFi users optimize their Yield Token (YT) investments on Pendle by analyzing real-time trade-by-trade data, predicting limit order completion times, and visualizing counterparty order density and wait times.
 
-This analyzer helps users find the best times to buy Yield Tokens (YT) on Pendle. It simplifies investment decisions by analyzing historical data and market trends, offering insights into optimal entry points and returns. Ideal for all DeFi investors, it provides clear visualizations and automated analysis to boost your yield farming strategy.
+## 🎯 Key Features in V6
 
-## 🎯 Features
-- **Optimal Timing Analysis**: Identifies the best times to purchase YT based on historical APY data and market trends.
-- **Automated Analysis**: Automatically processes and analyzes data to generate actionable insights for your investment strategy.
-- **Customizable Indicators**: Includes options for adding custom indicators like moving averages, volatility, RSI, and MACD.
-- **Visualizations**: Generates clear, easy-to-interpret visualizations to help guide your investment decisions.
-- **Simulated Limit Orders**: Simulate the results of placing limit orders on YT and assess potential outcomes.
+- **Real-time Data Analysis**: Switch from hourly implied APY calculations to real-time trade-by-trade data, improving the accuracy of the YT fair value curve.
+- **Enhanced Limit Order Placement Assistance**: Users can input the quantity of YT or PT they want to buy or sell. The system predicts how long it will take for the order to be filled based on market conditions.
+- **Counterparty Order Density Visualization**: Visualizes the density of opposing orders and estimates wait times, assisting in more efficient order placements.
+- **Customizable Indicators**: Retains the ability to add custom indicators like moving averages, volatility, RSI, and MACD for detailed strategy customization.
+- **Advanced Visualization**: Provides more precise visualizations of the fair value curve, market trends, and simulated order outcomes.
 
-## 🔍 Understanding the Strategy
+## 🔍 Strategy Overview
 
-To gain a deeper understanding of how the YT price correlates with the implied annualized yield (APY) and the impact of holding duration on returns, please refer to the [YT Timing Strategy Overview](https://docs.google.com/document/d/1MUHDZqcMZwv5h4CJwk_2LLev8zy6GjbSdevnAwpG0LE/edit?usp=sharing).
+The V6 strategy incorporates insights from implied APY and real-time YT price movements. Key updates include:
 
-This document covers:
-- The correlation between YT price and implied APY.
-- The effect of holding duration and YT leverage.
-- How to achieve returns above the average by identifying optimal purchase points.
-- The significance of volume-weighted implied APY in establishing a fair price line for YT.
+- **Fair Value Calculation**: Uses volume-weighted implied APY to calculate the fair price line for YT, adjusting for holding periods and market sentiment.
+- **Optimized Timing**: Helps users identify the best purchase or sell times by comparing YT prices with their fair value. Users can balance between high-leverage, short-duration buys and low-leverage, long-duration holds.
+  
+For a full breakdown of the strategy, please refer to the [YT Timing Strategy Overview](https://docs.google.com/document/d/1MUHDZqcMZwv5h4CJwk_2LLev8zy6GjbSdevnAwpG0LE/edit?usp=sharing).
 
 ## 📦 Prerequisites
 - Python 3.x
-- Required Python libraries: `requests`, `pandas`, `numpy`, `datetime`, `plotly`
-
+- Required Python libraries: `requests`, `pandas`, `numpy`, `datetime`, `plotly`, `sklearn`, `tabulate`,`matplotlib`
 
 ## 📘 Colab Notebook OR 🚀 Installation
-You can explore and run the analysis directly on Google Colab. No setup required—simply open the notebook and start experimenting with the tool:
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xr_18PesSBV5DpRPVKibO5Ta6o4lpo-y#scrollTo=MzL4QgmqAsor)
+You can explore the analysis directly on Google Colab, no setup required:
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oD_czxq3yVFYXujP_n9dcbNJ1z7iqbLm?authuser=0#scrollTo=BEtIVZVI6elN)
 
 Alternatively, you can clone the repository and run the analysis locally:
 
@@ -56,18 +55,19 @@ Alternatively, you can clone the repository and run the analysis locally:
 3. **Run the notebook**:
    Open the Jupyter Notebook or Python script locally and start your analysis.
 
-
 ## 💡 Usage
+
 1. **Select Network**: Choose the network where the pool is located (Ethereum, Arbitrum, Mantle).
 2. **Enter Contract Addresses**: Provide the Market and YT contract addresses on the pool's homepage.
-3. **Analyze & Simulate**: Use the tool to analyze your investment strategy or simulate limit orders based on historical data.
-4. **Visualize Results**: Generate and view visualizations to understand YT price movements, implied APY, and points distribution.
-
+3. **Analyze & Simulate**: Use the updated tool to analyze your investment strategy or simulate limit orders with real-time data.
+4. **Visualize Results**: Generate updated visualizations to understand YT price movements, implied APY, and counterparty order distribution.
 
 ## 🤝 Contributing
-We welcome contributions from Pendle enthusiasts! Whether you're a developer, analyst, or simply a fan of DeFi, your input and improvements are highly valued. Future support from this project will be shared with all contributors.
+
+We welcome contributions from Pendle enthusiasts! In V6, we focus on refining the prediction accuracy and visualization features. If you have ideas for further improvements, we’d love to see your contributions.
 
 ### How to Contribute
+
 1. **Fork the repository**: Click the "Fork" button at the top-right corner of this page.
 2. **Create your feature branch**: 
    ```bash
@@ -83,13 +83,11 @@ We welcome contributions from Pendle enthusiasts! Whether you're a developer, an
    ```
 5. **Open a pull request**: Navigate to your fork on GitHub and click the "Pull Request" button to submit your changes for review.
 
-We can't wait to see your contributions! ✨
+We look forward to your contributions! ✨
 
 ## 👥 Authors & Contributors
-Created by [Quant Sheep](https://twitter.com/quant_sheep?t=KqHtg0lNFy-sejP_dFOUXg&s=09) — *Looking forward to collaborating with other DeFi enthusiasts!*
+Created by [Quant Sheep](https://twitter.com/quant_sheep?t=KqHtg0lNFy-sejP_dFOUXg&s=09) — *Collaborating with DeFi enthusiasts around the world!*
 
-## 💸 Support
-If you find this tool useful, consider supporting: `0x334D7763eD1e23bD4052e9551DB3Dac506a64F1E`. Future support will be shared among contributors.
 
 ## 📜 License
 This project is licensed under the MIT License.
